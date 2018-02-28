@@ -1,4 +1,5 @@
 class Job:
+    """工作类"""
     job_id = ""  # 职位id
     job_name = ""  # 职位名称
     job_salary = ""  # 薪资
@@ -8,6 +9,7 @@ class Job:
     job_desc = ""  # 岗位职责描述
 
     def __init__(self, job_id, job_name, job_salary, job_company, job_release_time, job_type, job_desc):
+        """初始化"""
         self.job_id = job_id
         self.job_name = job_name
         self.job_salary = job_salary
@@ -17,6 +19,7 @@ class Job:
         self.job_desc = job_desc
 
     def show_info(self):
+        """打印信息"""
         print("职位id:%s" % self.job_id)
         print("职位名称:%s" % self.job_name)
         print("薪资:%s" % self.job_salary)

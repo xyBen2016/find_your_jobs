@@ -1,10 +1,10 @@
-def writeToTxt(count, list_job):
-    f_txt = open(
-        r"E:/xy/test/eclipse_python/cx/workspace/find_your_jobs/src/jobs/jobs.txt", "a", encoding='utf-8')
-    f_txt.write("共找到" + str(count) + "个适合您的岗位:")
+def writeToTxt(file_name, count, list_job):
+    """txt写入工具类"""
+    f_txt = open(file_name, "a", encoding='utf-8')  # 打开文件
+    f_txt.write("共找到" + str(count) + "个适合您的岗位:")  # 写入总职位数
     f_txt.write("\n")
 
-    for job in list_job:
+    for job in list_job:  # 循环写入所有工作列表的职位信息
         f_txt.write(
             "*******************************************************************************************************")
         f_txt.write("\n")
@@ -25,4 +25,4 @@ def writeToTxt(count, list_job):
         f_txt.write(
             "*******************************************************************************************************")
 
-    f_txt.close()
+    f_txt.close()  # 关闭文件
