@@ -22,6 +22,8 @@ def writeToTxt(file_name, count, list_job):
         f_txt.write("\n")
         f_txt.write("职责描述：" + job.job_desc)
         f_txt.write("\n")
+        f_txt.write("职位链接：" + job.job_link)
+        f_txt.write("\n")
         f_txt.write(
             "*******************************************************************************************************")
 

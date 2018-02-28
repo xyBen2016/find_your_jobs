@@ -1,4 +1,5 @@
-from PageObjects import BeautifulSoup, NoSuchElementException
+from bs4 import BeautifulSoup
+from selenium.common.exceptions import NoSuchElementException
 from DataConfigurations import Config, TxtUtils
 from PageObjects.BasePageObject import BasePageObject
 from DataConfigurations.Job import Job
@@ -23,6 +24,9 @@ class PO_guipin(BasePageObject):
         for dd in list_dd:  # 循环便利并取出职位信息
             p1 = dd.find_all("p", {"class": "job-name"})[0]  # work
             str_job_name = p1.find_all("a")[0].get_text()  # 职位名称
+            str_job_link = "http://www.guipin.com" + \
+                p1.find_all("a")[0].get("href")  # 职位链接
+
             str_job_salary = p1.find_all("span")[0].get_text().strip()  # 职位薪资
             p_time = dd.find_all("p", {"class": "time-btn"})[0]
             str_job_release_time = p_time.find_all(
@@ -36,7 +40,7 @@ class PO_guipin(BasePageObject):
                 0].get_text()  # 职位职责描述
             self.count += 1
             job = Job(str(self.count), str_job_name, str_job_salary, str_job_company, str_job_release_time, str_job_type,
-                      str_job_desc)  # 封装对象
+                      str_job_desc, str_job_link)  # 封装对象
             self.list_job.append(job)  # 存入职位列表
 
     def find_your_jobs(self):

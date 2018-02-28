@@ -7,8 +7,9 @@ class Job:
     job_release_time = ""  # 职位发布时间
     job_type = ""  # 职位类型
     job_desc = ""  # 岗位职责描述
+    job_link = ""  # 职位链接
 
-    def __init__(self, job_id, job_name, job_salary, job_company, job_release_time, job_type, job_desc):
+    def __init__(self, job_id, job_name, job_salary, job_company, job_release_time, job_type, job_desc, job_link):
         """初始化"""
         self.job_id = job_id
         self.job_name = job_name
@@ -17,6 +18,7 @@ class Job:
         self.job_release_time = job_release_time
         self.job_type = job_type
         self.job_desc = job_desc
+        self.job_link = job_link
 
     def show_info(self):
         """打印信息"""
@@ -27,4 +29,5 @@ class Job:
         print("职位发布时间:%s" % self.job_release_time)
         print("职位类型:%s" % self.job_type)
         print("岗位职责描述:%s" % self.job_desc)
+        print("职位链接:%s" % self.job_link)
         print("----------------------------------------------")

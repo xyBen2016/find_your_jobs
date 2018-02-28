@@ -1,4 +1,4 @@
-from PageObjects import webdriver
+from selenium import webdriver
 
 
 class BasePageObject:
