@@ -4,8 +4,6 @@ from DataConfigurations import Config, TxtUtils
 from PageObjects.BasePageObject import BasePageObject
 from DataConfigurations.Job import Job
 import time
-from numba.cuda.cudadrv.driver import driver
-from asyncio.tasks import sleep
 
 
 class PO_gxrc(BasePageObject):

@@ -1,22 +1,8 @@
-[INFO  - 2018-03-01T02:52:01.864Z] GhostDriver - Main - running on port 35061
-[INFO  - 2018-03-01T02:52:05.331Z] Session [8678e8c0-1cfb-11e8-b12d-e1329c2fab5b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-03-01T02:52:05.331Z] Session [8678e8c0-1cfb-11e8-b12d-e1329c2fab5b] - page.customHeaders:  - {}
-[INFO  - 2018-03-01T02:52:05.331Z] Session [8678e8c0-1cfb-11e8-b12d-e1329c2fab5b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-03-01T02:52:05.331Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8678e8c0-1cfb-11e8-b12d-e1329c2fab5b
-[ERROR - 2018-03-01T02:52:06.199Z] Session [8678e8c0-1cfb-11e8-b12d-e1329c2fab5b] - page.onError - msg: ReferenceError: Can't find variable: Audio
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-03-01T02:52:06.199Z] Session [8678e8c0-1cfb-11e8-b12d-e1329c2fab5b] - page.onError - stack:
-  (anonymous function) (http://image.gxrc.com/gxrcsite/jieri/2018/spring/firemaks.js:6)
-  each (http://image.gxrc.com/gxrcsite/jieri/2018/spring/jquery-1.7.1.min.js:2)
-  each (http://image.gxrc.com/gxrcsite/jieri/2018/spring/jquery-1.7.1.min.js:2)
-  init (http://image.gxrc.com/gxrcsite/jieri/2018/spring/firemaks.js:6)
-  firemaks (http://image.gxrc.com/gxrcsite/jieri/2018/spring/firemaks.js:6)
-  (anonymous function) (http://www.gxrc.com/:1919)
-
-  phantomjs://platform/console++.js:263 in error
-[INFO  - 2018-03-01T02:52:07.090Z] Session [8678e8c0-1cfb-11e8-b12d-e1329c2fab5b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-03-01T02:52:07.090Z] Session [8678e8c0-1cfb-11e8-b12d-e1329c2fab5b] - page.customHeaders:  - {}
-[ERROR - 2018-03-01T02:52:09.857Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1519872729805
+[INFO  - 2018-03-01T07:05:39.205Z] GhostDriver - Main - running on port 38934
+[INFO  - 2018-03-01T07:05:40.278Z] Session [f349bb00-1d1e-11e8-92d7-c737fc7d47ef] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-03-01T07:05:40.278Z] Session [f349bb00-1d1e-11e8-92d7-c737fc7d47ef] - page.customHeaders:  - {}
+[INFO  - 2018-03-01T07:05:40.278Z] Session [f349bb00-1d1e-11e8-92d7-c737fc7d47ef] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-03-01T07:05:40.278Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f349bb00-1d1e-11e8-92d7-c737fc7d47ef
+[ERROR - 2018-03-01T07:05:42.249Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1519887942196
 
   phantomjs://platform/console++.js:263 in error

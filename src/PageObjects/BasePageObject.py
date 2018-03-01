@@ -10,8 +10,8 @@ class BasePageObject:
     def __init__(self):
         self.driver = webdriver.PhantomJS()  # 初始化时创建driver
 #         self.driver = webdriver.Chrome(
-# executable_path="C:/Program
-# Files(x86)/Google/Chrome/Application/chromedriver")
+#             executable_path="C:/ProgramFiles(x86)/Google/Chrome/Application/chromedriver")
+#         self.driver = webdriver.Chrome()
 
     def open(self):
         self.driver.get(self.url)  # 打开并加载页面
